@@ -24,7 +24,6 @@ export default function Home() {
     setMessages(updatedMessages);
     setLoading(true);
 
-    console.log(localStorage.getItem("prompt"));
     const response = await fetch("/api/chat", {
       method: "POST",
       headers: {
