@@ -1,7 +1,6 @@
 import Form from '@/components/Chat/Form'
 import { Navbar } from '@/components/Layout/Navbar'
 // eslint-disable-next-line @next/next/no-document-import-in-page
-import { Head } from 'next/document'
 import { FC } from 'react'
 
 interface promptsProps {
